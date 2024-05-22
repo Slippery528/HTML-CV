@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #333333e7;
+  border: 10px solid;
+  border-image: linear-gradient(to right, #ff6f61, #6b5b95, #88b04b, #ff6f61) 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+h1 {
+  margin-top: 0 !important;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+.navbar {
+  position: relative;
+  z-index: 999;
+}
+
+.image-collage {
+  position: fixed; /* Position the collage relative to the viewport */
+  top: 50%; /* Center the collage vertically */
+  right: 0; /* Align the collage to the right-hand side */
+  transform: translateY(-50%); /* Center the collage vertically */
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+/* Additional styles for better layout */
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  margin-right: 20px; /* Adjust spacing between navigation links */
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin-right: 10px; /* Adjust spacing between social icons */
+}
+
+.collage-image {
+  width: 150px;
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px; /* Add some spacing between images */
+}

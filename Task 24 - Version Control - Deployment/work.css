@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  border: 10px solid;
+  border-image: linear-gradient(to right, #ff6f61, #6b5b95, #88b04b, #ff6f61) 1;
+  background-color: #333333e7;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+.logo {
+  font-size: 30px;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande";
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 18px;
+}
+
+.nav-links a:hover {
+  color: #ddd;
+  text-decoration: underline;
+}
+
+.social-icons {
+  display: flex;
+  align-items: center;
+}
+
+.social-icons a {
+  margin: 0 5px;
+}
+
+.social-icons img {
+  width: 20px;
+  height: 20px;
+}
+
+h1 {
+  margin-top: 0 !important;
+}
+
+.content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: larger;
+}
+
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.download-button:hover {
+  background-color: #555;
+}
